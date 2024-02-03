@@ -1,8 +1,6 @@
 
 +++ Day 1 +++
 
-> spawn manager: spawn cycle
-> ship warp cycle
 > teleport
 > teleport transition
 > shooting

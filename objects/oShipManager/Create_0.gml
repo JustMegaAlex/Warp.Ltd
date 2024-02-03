@@ -1,6 +1,7 @@
 
 warp_area = instance_place(x, y, oWarpArea)
 warp_key = "ship" + string(instance_number(oShipManager))
+warp_timer = 300
 
 entities = []
 tilemap = layer_tilemap_create("Tiles", x, y, tsAll, width, height)
