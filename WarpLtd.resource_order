@@ -49,6 +49,7 @@
     {"name":"sWall","order":10,"path":"sprites/sWall/sWall.yy",},
     {"name":"oTopDownSpaceShip","order":6,"path":"objects/oTopDownSpaceShip/oTopDownSpaceShip.yy",},
     {"name":"oBlaster","order":3,"path":"objects/oBlaster/oBlaster.yy",},
+    {"name":"sInteract","order":13,"path":"sprites/sInteract/sInteract.yy",},
     {"name":"oSound","order":3,"path":"objects/oSound/oSound.yy",},
     {"name":"oSys","order":4,"path":"objects/oSys/oSys.yy",},
     {"name":"ezConsole_base_commands","order":3,"path":"scripts/ezConsole_base_commands/ezConsole_base_commands.yy",},

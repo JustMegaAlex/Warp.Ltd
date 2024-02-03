@@ -1,13 +1,12 @@
 
 +++ Day 1 +++
 
-> ship builder
-	> tiles
-	> spawn areas
+> dialogs + interaction
 > spawn manager
 > teleport
-> dialogs + interaction
 > comm
+> ship builder
+	> spawn areas
 > slime
 > shooting
 > ship manager
