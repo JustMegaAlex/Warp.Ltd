@@ -1,6 +1,5 @@
 /// @desc Control Menu 
 
-AnimateEaseIn()
 
 // keyboard Controls 
 if (menu_control) {
@@ -22,7 +21,7 @@ if (menu_control) {
 		// audio_play_sound(SFX_Menu_Nav,6,false)
 	}
 	if oInput.key_action {
-		PerformButton(menu_cursor)
+		PerformAction(menu_cursor)
 		// audio_play_sound(global.sfx_select,7,false)
 	}
 	// var mouse_y_gui = device_mouse_y_to_gui(0); 

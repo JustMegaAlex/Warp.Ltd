@@ -1,6 +1,8 @@
 
 event_inherited()
 
+is_interactible = true
+
 function Interact() {
 	if instance_exists(oWarpConsole) {
 		oPlayer.SetInControl(true)

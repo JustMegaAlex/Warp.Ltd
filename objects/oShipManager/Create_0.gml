@@ -1,4 +1,7 @@
 
+warp_area = instance_place(x, y, oWarpArea)
+warp_key = "ship" + string(instance_number(oShipManager))
+
 entities = []
 tilemap = layer_tilemap_create("Tiles", x, y, tsAll, width, height)
 function AddInstance(inst) {
@@ -13,3 +16,5 @@ function DrawTiles(tiles) {
 		}
 	}
 }
+
+array_push(global.assignments, id)

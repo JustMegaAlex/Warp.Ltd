@@ -2,7 +2,7 @@
 global.frame++
 
 if keyboard_check_pressed(ord("R")) {
-	room_restart()
+	game_restart()
 }
 
 if keyboard_check_pressed(vk_escape) {

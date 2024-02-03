@@ -56,7 +56,7 @@ key_action = key_attack or keyboard_check_pressed(vk_enter)
 key_escape = keyboard_check_pressed(vk_escape)
              or gamepad_button_check_pressed(0, gp_start)
 
-key_interact = keyboard_check(ord("E"))
+key_interact = keyboard_check_pressed(ord("E"))
 
 key_any = keyboard_check_pressed(vk_anykey)
 

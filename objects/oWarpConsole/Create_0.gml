@@ -10,8 +10,9 @@ menu_itemheight = font_get_size(fntMain)
 menu_item_distance_mult = 1.5
 
 //// Menu positioning
-menu_x = oWarpCore.x + 32
-menu_y_base = oWarpCore.y - menu_itemheight * menu_size * menu_item_distance_mult * 0.5
+x = oWarpCore.x + 32
+menu_x = x + 4
+menu_y_base = oWarpCore.y + 3 - menu_itemheight * menu_size * menu_item_distance_mult * 0.5
 menu_y = menu_y_base
 
 //// Menu control
@@ -20,15 +21,11 @@ menu_control = true
 // mouse control
 menu_top = 0
 menu_bottom = 0
+menu_cursor = 0
 
 
 function PerformAction(index) {
 	var menu_item = menu[index]
-	if menu_item.action != undefined {
-		menu_item.action()	
-		instance_destroy()
-		return
-	}
     show_debug_message("Menu item has no action")
 }
 
@@ -42,16 +39,5 @@ function DrawTextOutlined(text, xx, yy, color, offset=2, outline_color=c_black) 
 	draw_text_transformed(xx, yy, text, menu_text_scale, menu_text_scale, 0)
 }
 
-menu = [
-	{
-		title: "Ship0",
-		action: function() {
-		}
-	},
-	{
-		title: "Ship1",
-		action: function() {
-		}
-	}
-]
-menu_size = array_length(menu)
+menu = global.assignments
+
