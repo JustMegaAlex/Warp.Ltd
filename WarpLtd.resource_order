@@ -15,6 +15,7 @@
     {"name":"Sounds","order":5,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
+    {"name":"Parents","order":5,"path":"folders/Objects/Parents.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"movement","order":4,"path":"scripts/movement/movement.yy",},

@@ -1,4 +1,6 @@
 
+event_inherited()
+
 function shoot(dir, obj=oSimpleBullet, spr=sSimpleBullet, sp=undefined) {
 	var inst = instance_create_layer(x, y, layer, obj)
 	inst.image_angle = dir

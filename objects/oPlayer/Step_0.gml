@@ -1,4 +1,5 @@
 
+event_inherited()
 
 key_left = false
 key_right = false
