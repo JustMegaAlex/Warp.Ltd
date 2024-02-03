@@ -1,0 +1,28 @@
+
++++ Day 1 +++
+> find a pallete
+> set up basics
+	> movement
+	> camera
+	> collisions
+
+> ship builder
+> ship manager
+> spawn manager
+> comm
+> shooting
+> slime
+> ui
+	> hp
+	> blaster
+	> items
+> write a post
+> publish
+> orcs
+
++++ Day 2 +++
+> music
+> sfx
+> improve visuals
+> show to someone for test and ideas
+> polish
