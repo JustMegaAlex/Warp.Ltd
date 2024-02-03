@@ -2,6 +2,7 @@
 event_inherited()
 
 is_interactible = true
+interaction_y_shift = -16
 
 function Interact() {
 	if instance_exists(oWarpConsole) {

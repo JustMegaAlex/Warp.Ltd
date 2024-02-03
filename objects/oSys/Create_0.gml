@@ -1,4 +1,6 @@
 
+debug_draw_ini()
+
 vieww = 480
 viewh = 360
 

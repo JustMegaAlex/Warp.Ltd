@@ -10,9 +10,11 @@ menu_itemheight = font_get_size(fntMain)
 menu_item_distance_mult = 1.5
 
 //// Menu positioning
-x = oWarpCore.x + 32
+x = oWarpCore.x + 18
 menu_x = x + 4
-menu_y_base = oWarpCore.y + 3 - menu_itemheight * menu_size * menu_item_distance_mult * 0.5
+y = oWarpCore.y
+menu_y_base = oWarpCore.y + 3 
+			  - menu_itemheight * menu_size * menu_item_distance_mult * 0.5
 menu_y = menu_y_base
 
 //// Menu control

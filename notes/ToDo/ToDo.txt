@@ -1,23 +1,35 @@
 
 +++ Day 1 +++
 
-> dialogs + interaction
-> spawn manager
+> spawn manager: spawn cycle
+> ship warp cycle
 > teleport
-> comm
-> ship builder
-	> spawn areas
-> slime
+> teleport transition
 > shooting
-> ship manager
+    > animation
+    > computing
+    > restoring ammo
+> orcs: ai
 > ui
 	> hp
 	> blaster
-	> items
+> reward system
+> spawn manager
+    > difficulties
+    > test
+> ui items
+> items
+    > hacker tool
+    > reload
+    > medpack
+	> wormhole
 > write a post
 > publish
-> orcs
+> teleport animation
+> slime
 
+> ship manager systems
+> comm
 > astar
 > astar ai
 
