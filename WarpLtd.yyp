@@ -102,6 +102,7 @@
     {"id":{"name":"geometry","path":"scripts/geometry/geometry.yy",},},
     {"id":{"name":"ezConsole_themes","path":"scripts/ezConsole_themes/ezConsole_themes.yy",},},
     {"id":{"name":"debug","path":"scripts/debug/debug.yy",},},
+    {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"oShipSpawner","path":"objects/oShipSpawner/oShipSpawner.yy",},},
     {"id":{"name":"camera","path":"scripts/camera/camera.yy",},},
     {"id":{"name":"sShipBuilder","path":"sprites/sShipBuilder/sShipBuilder.yy",},},
