@@ -8,7 +8,7 @@ function aim_angle() {
 }
 
 anchor_radius_gain = 2
-target = oTopDownMove
+target = oPlayer
 sp_ratio = 0.125
 rel_xto = x
 rel_yto = y

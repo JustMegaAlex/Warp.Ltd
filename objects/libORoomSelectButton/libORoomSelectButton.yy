@@ -29,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "libSButton",
-    "path": "sprites/libSButton/libSButton.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -1,10 +1,10 @@
 
 +++ Day 1 +++
-> find a pallete
-> set up basics
+>>> set up basics
 	> movement
 	> camera
 	> collisions
+	> parents
 
 > ship builder
 > ship manager
