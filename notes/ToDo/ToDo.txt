@@ -5,6 +5,7 @@
 
 > ship builder
 > ship manager
+> teleport
 > spawn manager
 > comm
 > shooting
@@ -16,6 +17,9 @@
 > write a post
 > publish
 > orcs
+
+> astar
+> astar ai
 
 +++ Day 2 +++
 > music

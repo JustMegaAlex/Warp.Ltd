@@ -1,0 +1,5 @@
+
+ship_builders = []
+
+alarm[0] = 1
+alarm[1] = 2

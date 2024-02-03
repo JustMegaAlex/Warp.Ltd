@@ -1,6 +1,10 @@
 
 event_inherited()
 
+if global.pause {
+	exit
+}
+
 key_left = false
 key_right = false
 key_up = false
