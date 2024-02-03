@@ -1,15 +1,16 @@
 
 +++ Day 1 +++
->>> set up basics
-	> parents
 
 > ship builder
-> ship manager
-> teleport
+	> tiles
+	> spawn areas
 > spawn manager
+> teleport
+> dialogs + interaction
 > comm
-> shooting
 > slime
+> shooting
+> ship manager
 > ui
 	> hp
 	> blaster

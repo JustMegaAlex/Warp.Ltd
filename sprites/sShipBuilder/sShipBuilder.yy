@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "WarpLtd",
-    "path": "WarpLtd.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
