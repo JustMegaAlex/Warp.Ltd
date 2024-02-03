@@ -27,7 +27,8 @@ menu_cursor = 0
 
 
 function PerformAction(index) {
-	var menu_item = menu[index]
+	var ship = menu[index]
+	oPlayer.Warp(ship)
     show_debug_message("Menu item has no action")
 }
 

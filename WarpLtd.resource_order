@@ -67,7 +67,7 @@
     {"name":"geometry","order":3,"path":"scripts/geometry/geometry.yy",},
     {"name":"ezConsole_themes","order":4,"path":"scripts/ezConsole_themes/ezConsole_themes.yy",},
     {"name":"debug","order":2,"path":"scripts/debug/debug.yy",},
-    {"name":"oUI","order":16,"path":"objects/oUI/oUI.yy",},
+    {"name":"oUI","order":11,"path":"objects/oUI/oUI.yy",},
     {"name":"oShipSpawner","order":2,"path":"objects/oShipSpawner/oShipSpawner.yy",},
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
     {"name":"sShipBuilder","order":10,"path":"sprites/sShipBuilder/sShipBuilder.yy",},

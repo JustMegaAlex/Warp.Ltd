@@ -19,6 +19,8 @@ with oEntity {
 	}
 }
 
+warp_area = instance_place(x, y, oWarpArea)
+
 // collect tiles
 var lay_id = layer_get_id("Tiles")
 tile_id = layer_tilemap_get_id(lay_id)
@@ -50,5 +52,6 @@ function Spawn(xx, yy) {
 			ship.AddInstance(inst)
 		}
 	}
+	ship.warp_area = warp_area
 	ship.DrawTiles(tiles)
 }

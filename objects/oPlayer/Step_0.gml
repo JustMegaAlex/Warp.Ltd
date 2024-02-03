@@ -32,3 +32,11 @@ vsp = lengthdir_y(sp, move_dir) * input
 move_coord_contact_obj(hsp, vsp, oWall)
 
 scr_camera_set_pos(0, x, y)
+
+if warp_to_ship and oUI.is_middle_transition {
+	var area = warp_to_ship.warp_area
+	x = random_range(area.bbox_left, area.bbox_right)
+	y = random_range(area.bbox_top, area.bbox_bottom)
+	in_control = true
+	warp_to_ship = noone
+}
