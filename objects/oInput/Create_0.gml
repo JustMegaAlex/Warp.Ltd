@@ -18,6 +18,7 @@ key_shoot_pressed = false
 key_shoot = false
 gp_hinp_pressed = false
 gp_vinp_pressed = false
+key_interact = false
 
 gp_hinp_threshold = 0.25
 gp_vinp_threshold = 0.85
