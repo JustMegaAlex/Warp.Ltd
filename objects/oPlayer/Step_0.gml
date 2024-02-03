@@ -14,13 +14,6 @@ if in_control {
 	key_shoot = oInput.key_shoot
 }
 
-//// shooting
-reloading--
-if key_shoot
-		and !reloading {
-	shoot(point_dir(mouse_x, mouse_y))
-	reloading = reload_time
-}
 
 //// movement
 move_h = key_right - key_left
