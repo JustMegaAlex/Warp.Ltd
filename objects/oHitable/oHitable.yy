@@ -1,11 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oAnimateWalk",
+  "name": "oHitable",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +13,8 @@
     "path": "folders/Objects/Parents.yy",
   },
   "parentObjectId": {
-    "name": "oHitable",
-    "path": "objects/oHitable/oHitable.yy",
+    "name": "oEntity",
+    "path": "objects/oEntity/oEntity.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

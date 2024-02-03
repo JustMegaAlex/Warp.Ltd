@@ -1,9 +1,6 @@
 
 +++ Day 1 +++
 >>> set up basics
-	> movement
-	> camera
-	> collisions
 	> parents
 
 > ship builder
