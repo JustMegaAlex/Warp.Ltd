@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oGoblin",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,8 +13,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oHitable",
-    "path": "objects/oHitable/oHitable.yy",
+    "name": "oEntity",
+    "path": "objects/oEntity/oEntity.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "sGoblin",
+    "path": "sprites/sGoblin/sGoblin.yy",
   },
   "spriteMaskId": null,
   "visible": true,
