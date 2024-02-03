@@ -1,4 +1,5 @@
 
+assignments = []
 frame = 0
 coins = 0
 pause = false
