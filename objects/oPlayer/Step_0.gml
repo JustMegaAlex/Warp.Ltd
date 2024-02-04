@@ -5,6 +5,8 @@ if global.pause {
 	exit
 }
 
+depth = -y
+
 key_left = false
 key_right = false
 key_up = false

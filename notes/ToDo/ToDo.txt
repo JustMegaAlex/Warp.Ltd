@@ -1,8 +1,8 @@
 
 +++ Day 1 +++
+> debug
+    > ship walls
 > orcs
-    > weapons
-    > bullets
     > ai
 > reward system
 > ui items

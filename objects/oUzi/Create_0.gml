@@ -3,7 +3,7 @@ event_inherited()
 
 carrier = noone
 rely = -10
-radius = 5
+radius = 8
 reloading = 0
 reload_time = 60
 side = Sides.theirs

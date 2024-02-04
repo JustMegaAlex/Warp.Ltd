@@ -24,7 +24,7 @@ if (menu_control) {
         } 
 		// audio_play_sound(SFX_Menu_Nav,6,false)
 	}
-	if oInput.key_action {
+	if oInput.key_jump {
 		PerformAction(menu_cursor)
 		// audio_play_sound(global.sfx_select,7,false)
 	}
