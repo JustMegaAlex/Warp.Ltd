@@ -1,4 +1,8 @@
 
+ammo_max = 5
+ammo = 5
+ammo_time = 120
+ammo_timer = ammo_time
 carrier = oPlayer
 rely = -10
 radius = 5

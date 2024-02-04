@@ -1,6 +1,8 @@
 
 event_inherited()
 
-visible = false
+//visible = false
+
+side = Sides.neutral
 
 function hit() {}

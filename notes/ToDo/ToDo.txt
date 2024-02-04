@@ -1,10 +1,9 @@
 
 +++ Day 1 +++
-> ui
-	> hp
-	> blaster
-> shooting
-    > restoring ammo
+> orcs
+    > weapons
+    > bullets
+    > ai
 > reward system
 > ui items
 > items
@@ -15,7 +14,6 @@
 > shop
     > item slot
     > item reload
-> orcs: ai
 
 
 

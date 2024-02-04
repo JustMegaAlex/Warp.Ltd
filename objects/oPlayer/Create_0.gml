@@ -3,8 +3,10 @@ event_inherited()
 
 in_control = true
 
-ammo_max = 5
-ammo = ammo_max
+hp_max = 5
+hp = 3
+side = Sides.ours
+
 sp = 2
 hsp = 0
 vsp = 0
@@ -29,8 +31,12 @@ function shoot(dir, obj=oSimpleBullet, spr=sSimpleBullet, sp=undefined) {
 	inst.sprite_index = spr
 	if sp != undefined
 		inst.sp = sp
-	
+
 	inst.side = side
+}
+
+function hit(dmg=1) {
+	hp = max(0, hp - 1)
 }
 
 function Warp(ship) {
