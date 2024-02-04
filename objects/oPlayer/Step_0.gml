@@ -38,6 +38,7 @@ if warp_to_ship and oUI.is_middle_transition {
 	x = random_range(area.bbox_left, area.bbox_right)
 	y = random_range(area.bbox_top, area.bbox_bottom)
 	in_control = true
+	ship = warp_to_ship
 	warp_to_ship = noone
 }
 

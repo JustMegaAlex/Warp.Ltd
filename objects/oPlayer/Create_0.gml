@@ -10,6 +10,7 @@ side = Sides.ours
 reload_time = 30
 reloading = 0
 warp_to_ship = noone
+ship = noone
 teleporting = 0
 teleport_trashold = 60
 
