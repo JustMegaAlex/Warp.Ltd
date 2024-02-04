@@ -36,3 +36,5 @@ scr_camera_set_pos(0, x, y)
 if !instance_exists(oInput) {
 	instance_create_layer(0, 0, "Instances", oInput)
 }
+
+instance_create_layer(x, y, layer, oBlaster)

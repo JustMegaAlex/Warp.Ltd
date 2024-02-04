@@ -1,4 +1,6 @@
 
+event_inherited()
+
 side = Sides.ours
 hp = 5
 

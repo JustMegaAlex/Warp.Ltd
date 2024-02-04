@@ -1,4 +1,6 @@
 
+depth = -y
+
 if is_interactible {
 	if global.interact_inst == id {
 		if oInput.key_interact {
