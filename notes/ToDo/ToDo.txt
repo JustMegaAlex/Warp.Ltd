@@ -1,7 +1,5 @@
 
 +++ Day 1 +++
-> ship manager
-    > spawn orcs
 > ui
 	> hp
 	> blaster

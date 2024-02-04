@@ -3,6 +3,8 @@ event_inherited()
 
 in_control = true
 
+ammo_max = 5
+ammo = ammo_max
 sp = 2
 hsp = 0
 vsp = 0

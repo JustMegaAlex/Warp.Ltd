@@ -1,4 +1,6 @@
 
+event_inherited()
+
 animation = {
 	wave_sp: 12,
 	wave_angle_max: 10,
