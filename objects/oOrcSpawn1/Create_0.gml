@@ -1,3 +1,3 @@
 
-timer = random_range(time_min, time_max) * 10
+timer = random_range(time_min, time_max) * 60
 ship = noone

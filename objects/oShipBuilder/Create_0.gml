@@ -1,14 +1,4 @@
 
-//function Entity(obj, x, y) constructor {
-//	self.object = obj
-//	self.x = x,
-//	self.y = y
-
-//	function spawn(x, y) {
-//		instance_copy()
-//	}
-//}
-
 visible = false
 
 // collect entities

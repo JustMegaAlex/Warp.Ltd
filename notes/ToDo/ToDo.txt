@@ -1,15 +1,8 @@
 
 +++ Day 1 +++
-> debug
-    > ship walls
 > orcs
     > ai
-> draw
-    > coins
-    > items
-    > item shop slot
 > reward system
-> ui items
 > items
     > hacker tool
     > reload

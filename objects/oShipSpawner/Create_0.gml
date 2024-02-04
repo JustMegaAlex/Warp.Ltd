@@ -5,10 +5,10 @@ alarm[0] = 1
 alarm[1] = 2
 
 spawn_periods = ds_list_create()
-next_spawn_in = 100 * 10000000
-var i = 0
+next_spawn_in = 100
 total_spawns = 0
 
+var i = 0
 repeat(10) {
 	spawn_periods[| i] = irandom_range(9, 12)
 	i++

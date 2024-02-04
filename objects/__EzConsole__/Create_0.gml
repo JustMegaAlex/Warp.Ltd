@@ -1,5 +1,4 @@
 
-debug_draw_ini()
 console_make_additional_commands()
 
 /// @description Setup

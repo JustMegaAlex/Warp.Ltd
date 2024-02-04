@@ -1,6 +1,8 @@
 
 debug_draw_ini()
 
+global.DEBUG = false
+
 vieww = 480
 viewh = 360
 
