@@ -43,6 +43,7 @@
   },
   "resources": [
     {"id":{"name":"ezConsole_logic","path":"scripts/ezConsole_logic/ezConsole_logic.yy",},},
+    {"id":{"name":"sPlazmaShot","path":"sprites/sPlazmaShot/sPlazmaShot.yy",},},
     {"id":{"name":"movement","path":"scripts/movement/movement.yy",},},
     {"id":{"name":"libOHitable","path":"objects/libOHitable/libOHitable.yy",},},
     {"id":{"name":"sBlaster","path":"sprites/sBlaster/sBlaster.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"sWarpPoint","path":"sprites/sWarpPoint/sWarpPoint.yy",},},
     {"id":{"name":"oSimpleBullet","path":"objects/oSimpleBullet/oSimpleBullet.yy",},},
     {"id":{"name":"ezConsole_additional_commands","path":"scripts/ezConsole_additional_commands/ezConsole_additional_commands.yy",},},
+    {"id":{"name":"GameDev_net","path":"sprites/GameDev_net/GameDev_net.yy",},},
     {"id":{"name":"sWarpConsole","path":"sprites/sWarpConsole/sWarpConsole.yy",},},
     {"id":{"name":"autotiling","path":"scripts/autotiling/autotiling.yy",},},
     {"id":{"name":"oTarget","path":"objects/oTarget/oTarget.yy",},},

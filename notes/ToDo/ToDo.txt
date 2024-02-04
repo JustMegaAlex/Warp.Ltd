@@ -1,8 +1,6 @@
 
 +++ Day 1 +++
 
-> teleport
-> teleport transition
 > shooting
     > animation
     > computing
@@ -26,6 +24,7 @@
 > teleport animation
 > slime
 
+> teleport animation
 > ship manager systems
 > comm
 > astar
