@@ -40,7 +40,8 @@ for (var i = 0; i < width; ++i) {
 function Spawn(xx, yy) {
 	var ship = instance_create_layer(
 		xx, yy, "Instances", oShipManager,
-		{width: width, height: height})
+		{width: width, height: height, 
+		 image_xscale: image_xscale, image_yscale: image_yscale})
 	// spawn entities
 	for (var i = 0; i < array_length(instances); ++i) {
 		with instances[i] {
@@ -52,6 +53,5 @@ function Spawn(xx, yy) {
 			ship.AddInstance(inst)
 		}
 	}
-	ship.warp_area = warp_area
 	ship.DrawTiles(tiles)
 }

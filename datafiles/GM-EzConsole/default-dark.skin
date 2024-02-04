@@ -5,7 +5,7 @@
   "height": 0.33,
   "anchor": 0,
   "bg_color": "#07071e",
-  "bg_alpha": 0.66,
+  "bg_alpha": 1,
   "text_font": "fnt_ezConsole_Smooth",
   "text_font_xoff": 0,
   "text_font_yoff": 0,

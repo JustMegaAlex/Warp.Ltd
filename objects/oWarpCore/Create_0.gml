@@ -4,7 +4,7 @@ event_inherited()
 is_interactible = true
 interaction_y_shift = -16
 
-cooldown_time = 300
+cooldown_time = 300 * 0
 cooldown_timer = 0
 
 function Interact() {

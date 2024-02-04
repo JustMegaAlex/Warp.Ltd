@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Mobs",
+    "path": "folders/Objects/Mobs.yy",
   },
   "parentObjectId": {
     "name": "oHitable",

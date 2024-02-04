@@ -5,7 +5,7 @@ alarm[0] = 1
 alarm[1] = 2
 
 spawn_periods = ds_list_create()
-next_spawn_in = 100
+next_spawn_in = 100 * 10000000
 var i = 0
 total_spawns = 0
 
