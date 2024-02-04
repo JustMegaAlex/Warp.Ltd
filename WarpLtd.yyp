@@ -65,6 +65,7 @@
     {"id":{"name":"sGoblin","path":"sprites/sGoblin/sGoblin.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oTopDownAimCamera","path":"objects/oTopDownAimCamera/oTopDownAimCamera.yy",},},
+    {"id":{"name":"oBlasterShot","path":"objects/oBlasterShot/oBlasterShot.yy",},},
     {"id":{"name":"sSlime","path":"sprites/sSlime/sSlime.yy",},},
     {"id":{"name":"ezConsole_dependencies","path":"scripts/ezConsole_dependencies/ezConsole_dependencies.yy",},},
     {"id":{"name":"ezConsole_custom_commands","path":"scripts/ezConsole_custom_commands/ezConsole_custom_commands.yy",},},

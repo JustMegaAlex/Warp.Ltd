@@ -38,6 +38,7 @@
     {"name":"sGoblin","order":12,"path":"sprites/sGoblin/sGoblin.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
     {"name":"oTopDownAimCamera","order":4,"path":"objects/oTopDownAimCamera/oTopDownAimCamera.yy",},
+    {"name":"oBlasterShot","order":4,"path":"objects/oBlasterShot/oBlasterShot.yy",},
     {"name":"sSlime","order":2,"path":"sprites/sSlime/sSlime.yy",},
     {"name":"ezConsole_dependencies","order":2,"path":"scripts/ezConsole_dependencies/ezConsole_dependencies.yy",},
     {"name":"ezConsole_custom_commands","order":5,"path":"scripts/ezConsole_custom_commands/ezConsole_custom_commands.yy",},
