@@ -1,21 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oHitable",
+  "name": "oOrc",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Objects/Parents.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oEntity",
-    "path": "objects/oEntity/oEntity.yy",
+    "name": "oHitable",
+    "path": "objects/oHitable/oHitable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sOrc",
+    "path": "sprites/sOrc/sOrc.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

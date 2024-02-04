@@ -42,6 +42,7 @@
     {"name":"sSlime","order":2,"path":"sprites/sSlime/sSlime.yy",},
     {"name":"ezConsole_dependencies","order":2,"path":"scripts/ezConsole_dependencies/ezConsole_dependencies.yy",},
     {"name":"ezConsole_custom_commands","order":5,"path":"scripts/ezConsole_custom_commands/ezConsole_custom_commands.yy",},
+    {"name":"oOrc","order":12,"path":"objects/oOrc/oOrc.yy",},
     {"name":"oEntity","order":2,"path":"objects/oEntity/oEntity.yy",},
     {"name":"libORoomSelectMenu","order":1,"path":"objects/libORoomSelectMenu/libORoomSelectMenu.yy",},
     {"name":"ToDo","order":10,"path":"notes/ToDo/ToDo.yy",},

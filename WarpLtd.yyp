@@ -69,6 +69,7 @@
     {"id":{"name":"sSlime","path":"sprites/sSlime/sSlime.yy",},},
     {"id":{"name":"ezConsole_dependencies","path":"scripts/ezConsole_dependencies/ezConsole_dependencies.yy",},},
     {"id":{"name":"ezConsole_custom_commands","path":"scripts/ezConsole_custom_commands/ezConsole_custom_commands.yy",},},
+    {"id":{"name":"oOrc","path":"objects/oOrc/oOrc.yy",},},
     {"id":{"name":"libORoomSelectButton","path":"objects/libORoomSelectButton/libORoomSelectButton.yy",},},
     {"id":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},},
     {"id":{"name":"libORoomSelectMenu","path":"objects/libORoomSelectMenu/libORoomSelectMenu.yy",},},
