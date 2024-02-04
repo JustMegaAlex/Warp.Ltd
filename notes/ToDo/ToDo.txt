@@ -4,6 +4,10 @@
     > ship walls
 > orcs
     > ai
+> draw
+    > coins
+    > items
+    > item shop slot
 > reward system
 > ui items
 > items
