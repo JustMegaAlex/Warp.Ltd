@@ -1,7 +1,5 @@
 
 +++ Day 1 +++
-> teleport back
-> teleport cooldown
 > ship manager
     > spawn orcs
 > ui

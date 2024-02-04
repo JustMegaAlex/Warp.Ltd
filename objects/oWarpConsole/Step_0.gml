@@ -1,7 +1,7 @@
 /// @desc Control Menu 
 
 
-if cooldown_timer {
+if oWarpCore.cooldown_timer {
 	exit
 }
 

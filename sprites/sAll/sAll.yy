@@ -4,7 +4,7 @@
   "name": "sAll",
   "bbox_bottom": 63,
   "bbox_left": 32,
-  "bbox_right": 127,
+  "bbox_right": 223,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
