@@ -33,7 +33,8 @@ instance_create_layer(x, y, layer, oBlasterShotBurst,
 instance_create_layer(
 		x + lengthdir_x(dist, image_angle),
 		y + lengthdir_y(dist, image_angle), layer, oBlasterShotBurst, 
-		{sprite_index: sPlazmaShot2, image_blend: image_blend, image_angle: random(360)})
+		{sprite_index: sPlazmaShot2, image_blend: image_blend,
+		 image_angle: random(360), image_xscale: 0.5, image_yscale: 0.5})
 
 
 

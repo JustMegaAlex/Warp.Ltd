@@ -1,6 +1,10 @@
 /// @desc Control Menu 
 
 
+if cooldown_timer {
+	exit
+}
+
 // keyboard Controls 
 if (menu_control) {
 	if (oInput.key_down_pressed) {

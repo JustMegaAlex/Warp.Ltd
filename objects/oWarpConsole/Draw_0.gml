@@ -5,6 +5,12 @@ var halign = draw_get_halign(), valign = draw_get_valign()
 
 draw_set_halign(fa_left)
 draw_set_valign(fa_middle)
+
+if oWarpCore.cooldown_timer {
+	draw_text(menu_x, menu_y, "Cooldown: " + string(oWarpCore.cooldown_timer div 60))
+	exit
+}
+
 for (var i = 0; i < array_length(menu); i++)
 {
 	var txt = menu[i].warp_key

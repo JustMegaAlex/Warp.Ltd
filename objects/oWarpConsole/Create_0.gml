@@ -2,6 +2,7 @@
 
 menu_size = array_length(global.assignments)
 
+image_xscale = 1.5
 image_yscale = max(0.5, menu_size)
 
 //// Menu items size
@@ -30,6 +31,7 @@ function PerformAction(index) {
 	var ship = menu[index]
 	oPlayer.Warp(ship)
     show_debug_message("Menu item has no action")
+	instance_destroy()
 }
 
 function DrawTextOutlined(text, xx, yy, color, offset=2, outline_color=c_black) {
@@ -43,4 +45,3 @@ function DrawTextOutlined(text, xx, yy, color, offset=2, outline_color=c_black) 
 }
 
 menu = global.assignments
-

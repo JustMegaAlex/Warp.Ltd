@@ -1,29 +1,34 @@
 
 +++ Day 1 +++
-
-> shooting
-    > animation
-    > computing
-    > restoring ammo
-> orcs: ai
+> teleport back
+> teleport cooldown
+> ship manager
+    > spawn orcs
 > ui
 	> hp
 	> blaster
+> shooting
+    > restoring ammo
 > reward system
-> spawn manager
-    > difficulties
-    > test
 > ui items
 > items
     > hacker tool
     > reload
     > medpack
 	> wormhole
+> shop
+    > item slot
+    > item reload
+> orcs: ai
+
+
+
+> spawn manager
+    > difficulties
+    > test
 > write a post
 > publish
-> teleport animation
 > slime
-
 > teleport animation
 > ship manager systems
 > comm

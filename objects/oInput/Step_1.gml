@@ -48,7 +48,7 @@ key_right = keyboard_check(vk_right)
             or keyboard_check(ord("D")) 
             or gp_hinp_right
             or gamepad_button_check(0, gp_padr)
-key_jump = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face1)
+key_jump = keyboard_check(vk_space) or gamepad_button_check(0, gp_face1)
 key_attack = keyboard_check_pressed(ord("X"))
             or keyboard_check_pressed(ord("K"))
             or (gamepad_button_check_pressed(0, gp_face3))

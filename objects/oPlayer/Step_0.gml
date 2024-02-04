@@ -40,3 +40,20 @@ if warp_to_ship and oUI.is_middle_transition {
 	in_control = true
 	warp_to_ship = noone
 }
+
+if is_warping_home and oUI.is_middle_transition {
+	is_warping_home = false
+	x = oWarpCore.x
+	y = oWarpCore.y
+	in_control = true
+	oWarpCore.Cooldown()
+}
+
+if in_warp {
+	teleporting += oInput.key_jump ? 1 : -1
+	teleporting = clamp(teleporting, 0, teleport_trashold)
+	if teleporting >= teleport_trashold {
+		WarpHome()
+		teleporting = 0
+	}
+}
