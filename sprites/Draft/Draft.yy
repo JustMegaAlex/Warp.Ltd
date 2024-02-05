@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Draft",
-  "bbox_bottom": 743,
+  "bbox_bottom": 1487,
   "bbox_left": 0,
-  "bbox_right": 565,
+  "bbox_right": 1131,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -18,7 +18,7 @@
   ],
   "gridX": 32,
   "gridY": 32,
-  "height": 744,
+  "height": 1488,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"46ffda28-e49b-4052-8b61-f5b3e6b24e55","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
@@ -74,5 +74,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 567,
+  "width": 1134,
 }

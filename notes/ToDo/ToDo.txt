@@ -1,16 +1,17 @@
 
 +++ Day 1 +++
+> resize everything
+> shop
+    > item slot
+    > item reload
+> reward system
 > orcs
     > ai
-> reward system
 > items
     > hacker tool
     > reload
     > medpack
 	> wormhole
-> shop
-    > item slot
-    > item reload
 
 
 
