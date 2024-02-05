@@ -5,6 +5,8 @@ cost = 5
 
 is_interactible = true
 interaction_hint = string(cost)
+interaction_y_shift = -20
+interaction_sprite = sCoin
 
 restore_time = 3 * 60
 restore_timer = 0

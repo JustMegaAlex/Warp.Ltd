@@ -1,8 +1,7 @@
 
 +++ Day 1 +++
 > shop
-    > item slot
-    > item reload
+	> draw cost
 > reward system
 > orcs
     > ai
