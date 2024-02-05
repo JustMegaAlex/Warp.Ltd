@@ -27,9 +27,11 @@ animation = {
 	
 }
 
+fake_image_angle = 0
+
 function draw_movement() {
 	draw_sprite_ext(
 		sprite_index, 0, x, y + animation.z,
-		1, 1, animation.wave_angle, c_white, 1)
+		1, 1, fake_image_angle + animation.wave_angle, c_white, 1)
 }
 

@@ -22,6 +22,8 @@ ship = noone
 teleporting = 0
 teleport_trashold = 60
 
+is_dead = false
+
 is_warping_home = false
 in_warp = false
 
@@ -39,8 +41,13 @@ function shoot(dir, obj=oSimpleBullet, spr=sSimpleBullet, sp=undefined) {
 	inst.side = side
 }
 
-function hit(dmg=1) {
+function hit_indirect(dmg=1) {
 	hp = max(0, hp - 1)
+	if hp == 0 {
+		is_dead = true
+		in_control = false
+	}
+	draw_hit_timer = draw_hit_time
 }
 
 function Warp(ship) {
@@ -68,3 +75,8 @@ if !instance_exists(oInput) {
 }
 
 instance_create_layer(x, y, layer, oBlaster)
+
+with instance_create_layer(x, y, layer, oHitBox) {
+	target = oPlayer
+	sprite_index = sPlayerHitbox
+}

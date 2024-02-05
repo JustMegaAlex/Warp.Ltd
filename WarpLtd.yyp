@@ -52,6 +52,7 @@
     {"id":{"name":"oUzi","path":"objects/oUzi/oUzi.yy",},},
     {"id":{"name":"sBlaster","path":"sprites/sBlaster/sBlaster.yy",},},
     {"id":{"name":"oShipManager","path":"objects/oShipManager/oShipManager.yy",},},
+    {"id":{"name":"sPlayerHitbox","path":"sprites/sPlayerHitbox/sPlayerHitbox.yy",},},
     {"id":{"name":"oShipBuilder","path":"objects/oShipBuilder/oShipBuilder.yy",},},
     {"id":{"name":"sOrcSpawn3","path":"sprites/sOrcSpawn3/sOrcSpawn3.yy",},},
     {"id":{"name":"oHitable","path":"objects/oHitable/oHitable.yy",},},
@@ -136,6 +137,7 @@
     {"id":{"name":"Draft","path":"sprites/Draft/Draft.yy",},},
     {"id":{"name":"oBlasterShotBurst","path":"objects/oBlasterShotBurst/oBlasterShotBurst.yy",},},
     {"id":{"name":"oInput","path":"objects/oInput/oInput.yy",},},
+    {"id":{"name":"oHitBox","path":"objects/oHitBox/oHitBox.yy",},},
     {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
   ],
   "RoomOrderNodes": [

@@ -4,9 +4,3 @@
 debug_draw_var("depth", depth)
 
 debug_draw_var("ship", ship)
-
-
-
-
-
-

@@ -1,4 +1,6 @@
 
+ensure_singleton()
+
 debug_draw_ini()
 
 global.DEBUG = false
