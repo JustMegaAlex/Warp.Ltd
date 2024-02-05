@@ -60,3 +60,13 @@ if in_warp {
 		teleporting = 0
 	}
 }
+
+//// Use items
+if oInput.key_reload and !oBlaster.Full() and plazma_clips {
+	plazma_clips--
+	oBlaster.Reload()
+}
+if oInput.key_heal and hp < hp_max and stimpacks {
+	stimpacks--
+	hp = hp_max
+}

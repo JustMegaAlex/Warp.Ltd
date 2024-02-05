@@ -17,3 +17,11 @@ function shoot(dir) {
 						  y + lengthdir_y(sprite_width, image_angle),
 						  "Foreground", oBlasterShot)
 }
+
+function Full() {
+	return ammo >= ammo_max
+}
+
+function Reload() {
+	ammo = ammo_max
+}
