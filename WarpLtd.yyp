@@ -76,6 +76,8 @@
     {"id":{"name":"ezConsole_dependencies","path":"scripts/ezConsole_dependencies/ezConsole_dependencies.yy",},},
     {"id":{"name":"ezConsole_custom_commands","path":"scripts/ezConsole_custom_commands/ezConsole_custom_commands.yy",},},
     {"id":{"name":"oOrc","path":"objects/oOrc/oOrc.yy",},},
+    {"id":{"name":"sBlaster2","path":"sprites/sBlaster2/sBlaster2.yy",},},
+    {"id":{"name":"sBlaster3","path":"sprites/sBlaster3/sBlaster3.yy",},},
     {"id":{"name":"sUIHacker","path":"sprites/sUIHacker/sUIHacker.yy",},},
     {"id":{"name":"libORoomSelectButton","path":"objects/libORoomSelectButton/libORoomSelectButton.yy",},},
     {"id":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},},
