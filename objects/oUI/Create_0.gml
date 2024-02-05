@@ -13,8 +13,8 @@ hp_rely = -50 * ui_scale
 ammo_rely = -30 * ui_scale
 coins_rely = -70 * ui_scale
 
-clip_x = 100 * ui_scale
-stim_x = 140 * ui_scale
+clip_x = 160
+stim_x = 200
 
 function StartTransition() {
 	is_transition = true
