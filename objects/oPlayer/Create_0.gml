@@ -4,10 +4,10 @@ event_inherited()
 in_control = true
 
 hp_max = 5
-hp = 3
-plazma_clips = 1
+hp = hp_max
+plazma_clips = 0
 stimpacks = 1
-coins = 20
+coins = 0
 
 side = Sides.ours
 
