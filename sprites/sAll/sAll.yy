@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sAll",
-  "bbox_bottom": 137,
+  "bbox_bottom": 127,
   "bbox_left": 64,
   "bbox_right": 509,
   "bbox_top": 0,

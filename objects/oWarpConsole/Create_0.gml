@@ -14,7 +14,7 @@ menu_item_distance_mult = 1.5
 x = oWarpCore.x + 18
 menu_x = x + 4
 y = oWarpCore.y
-menu_y_base = oWarpCore.y + 3 
+menu_y_base = oWarpCore.y + 10 
 			  - menu_itemheight * menu_size * menu_item_distance_mult * 0.5
 menu_y = menu_y_base
 

@@ -1,5 +1,5 @@
 
-sp = 2
+sp = 4
 dir = 0
 lifetime = -1
 max_distance = 500

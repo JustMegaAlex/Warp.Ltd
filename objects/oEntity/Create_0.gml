@@ -2,7 +2,7 @@
 description = ""
 is_interactible = false
 interaction_hint = ""
-interaction_dist = 45
+interaction_dist = 90
 interaction_y_shift = 0
 
 function DrawInteractionHighlight() {
