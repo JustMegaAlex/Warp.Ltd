@@ -4,13 +4,13 @@ ammo = 5
 ammo_time = 120
 ammo_timer = ammo_time
 carrier = oPlayer
-rely = -10
-radius = 5
+rely = -20
+radius = 10
 reloading = 0
 reload_time = 15
 side = Sides.neutral
 
-shoot_dist = 200
+shoot_dist = 400
 
 function shoot(dir) {
 	instance_create_layer(x + lengthdir_x(sprite_width, image_angle),

@@ -3,8 +3,8 @@ debug_draw_ini()
 
 global.DEBUG = false
 
-vieww = 480
-viewh = 360
+vieww = 960
+viewh = 720
 
 view_enabled = true
 view_visible[0] = true

@@ -32,7 +32,6 @@
     {"name":"sWarpPoint","order":5,"path":"sprites/sWarpPoint/sWarpPoint.yy",},
     {"name":"oSimpleBullet","order":2,"path":"objects/oSimpleBullet/oSimpleBullet.yy",},
     {"name":"ezConsole_additional_commands","order":6,"path":"scripts/ezConsole_additional_commands/ezConsole_additional_commands.yy",},
-    {"name":"GameDev_net","order":12,"path":"sprites/GameDev_net/GameDev_net.yy",},
     {"name":"sWarpConsole","order":15,"path":"sprites/sWarpConsole/sWarpConsole.yy",},
     {"name":"oTarget","order":3,"path":"objects/oTarget/oTarget.yy",},
     {"name":"ezConsole_init","order":1,"path":"scripts/ezConsole_init/ezConsole_init.yy",},

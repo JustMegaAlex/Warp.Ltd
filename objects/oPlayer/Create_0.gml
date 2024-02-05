@@ -11,7 +11,7 @@ coins = 5
 
 side = Sides.ours
 
-sp = 2
+sp = 4
 hsp = 0
 vsp = 0
 side = Sides.ours
