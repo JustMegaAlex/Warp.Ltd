@@ -1,4 +1,4 @@
 
 with oShipBuilder {
-	array_push(other.ship_builders, id)
+	array_push(other.ship_builders[difficulty], id)
 }

@@ -153,7 +153,9 @@ function array_remove(arr, val) {
 	var i = array_find(arr, val)
 	if i == -1
 		throw " :array_remove: no value in array: " + string(val)
+	var res = arr[i]
 	array_delete(arr, i, 1)
+	return res
 }
 
 function array_choose(arr) {
