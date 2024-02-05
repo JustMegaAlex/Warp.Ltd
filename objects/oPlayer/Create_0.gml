@@ -57,6 +57,10 @@ function WarpHome() {
 	in_warp = false
 }
 
+function OnWarpComplete(ship) {
+	coins += 5
+}
+
 scr_camera_set_pos(0, x, y)
 
 if !instance_exists(oInput) {

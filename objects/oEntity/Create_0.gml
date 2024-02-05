@@ -8,7 +8,8 @@ interaction_image_speed = 0.25
 interaction_sprite = sInteract
 
 function DrawInteractionHighlight() {
-	draw_sprite(interaction_sprite, global.frame * interaction_image_speed, x, y + interaction_y_shift)
+	draw_sprite(interaction_sprite, global.frame * interaction_image_speed, 
+				x, y + interaction_y_shift)
 }
 
 function Interact() {}

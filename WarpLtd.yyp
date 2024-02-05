@@ -92,6 +92,7 @@
     {"id":{"name":"sAll","path":"sprites/sAll/sAll.yy",},},
     {"id":{"name":"oParticles","path":"objects/oParticles/oParticles.yy",},},
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
+    {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},},
     {"id":{"name":"oOrcSpawn1","path":"objects/oOrcSpawn1/oOrcSpawn1.yy",},},
     {"id":{"name":"fnt_ezConsole_Smooth","path":"fonts/fnt_ezConsole_Smooth/fnt_ezConsole_Smooth.yy",},},
     {"id":{"name":"sUIBlaster","path":"sprites/sUIBlaster/sUIBlaster.yy",},},

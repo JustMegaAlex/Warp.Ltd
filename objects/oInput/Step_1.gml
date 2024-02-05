@@ -13,6 +13,8 @@ gp_hinp_pressed = false
 gp_vinp_pressed = false
 mouse_moved = false
 key_interact = false
+key_reload = false
+key_heal = false
 
 if !active
 	exit
@@ -74,6 +76,8 @@ key_action = key_attack or keyboard_check_pressed(vk_enter)
 key_escape = keyboard_check_pressed(vk_escape)
              or gamepad_button_check_pressed(0, gp_start)
 
+key_reload = keyboard_check_pressed(ord("R"))
+key_heal = keyboard_check_pressed(ord("F"))
 key_interact = keyboard_check_pressed(ord("E"))
 
 key_any = keyboard_check_pressed(vk_anykey)

@@ -61,6 +61,7 @@
     {"name":"sUIWormHole","order":26,"path":"sprites/sUIWormHole/sUIWormHole.yy",},
     {"name":"oParticles","order":1,"path":"objects/oParticles/oParticles.yy",},
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
+    {"name":"sCoin","order":31,"path":"sprites/sCoin/sCoin.yy",},
     {"name":"oOrcSpawn1","order":1,"path":"objects/oOrcSpawn1/oOrcSpawn1.yy",},
     {"name":"fnt_ezConsole_Smooth","order":1,"path":"fonts/fnt_ezConsole_Smooth/fnt_ezConsole_Smooth.yy",},
     {"name":"sUIBlaster","order":10,"path":"sprites/sUIBlaster/sUIBlaster.yy",},
