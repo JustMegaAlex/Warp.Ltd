@@ -74,6 +74,7 @@
     {"id":{"name":"oTopDownAimCamera","path":"objects/oTopDownAimCamera/oTopDownAimCamera.yy",},},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"oBlasterShot","path":"objects/oBlasterShot/oBlasterShot.yy",},},
+    {"id":{"name":"oOrcSpawn2","path":"objects/oOrcSpawn2/oOrcSpawn2.yy",},},
     {"id":{"name":"sOrcSpawn2","path":"sprites/sOrcSpawn2/sOrcSpawn2.yy",},},
     {"id":{"name":"sSlime","path":"sprites/sSlime/sSlime.yy",},},
     {"id":{"name":"ezConsole_dependencies","path":"scripts/ezConsole_dependencies/ezConsole_dependencies.yy",},},

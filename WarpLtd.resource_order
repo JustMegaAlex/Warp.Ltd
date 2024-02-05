@@ -46,6 +46,7 @@
     {"name":"oTopDownAimCamera","order":4,"path":"objects/oTopDownAimCamera/oTopDownAimCamera.yy",},
     {"name":"oBullet","order":2,"path":"objects/oBullet/oBullet.yy",},
     {"name":"oBlasterShot","order":1,"path":"objects/oBlasterShot/oBlasterShot.yy",},
+    {"name":"oOrcSpawn2","order":5,"path":"objects/oOrcSpawn2/oOrcSpawn2.yy",},
     {"name":"sOrcSpawn2","order":21,"path":"sprites/sOrcSpawn2/sOrcSpawn2.yy",},
     {"name":"sSlime","order":3,"path":"sprites/sSlime/sSlime.yy",},
     {"name":"ezConsole_dependencies","order":2,"path":"scripts/ezConsole_dependencies/ezConsole_dependencies.yy",},

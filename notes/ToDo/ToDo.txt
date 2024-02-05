@@ -6,8 +6,9 @@
 > orcs
     > ai
 > items
-    > hacker tool
-    > reload
+    > hacker tool - get online notifs from ship
+    > scanner - reveal all warping enemies
+    > compact wormhole - you know what this is 
 > music
 > sfx
 > improve visuals
