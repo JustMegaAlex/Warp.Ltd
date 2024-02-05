@@ -1,4 +1,6 @@
 
+event_inherited()
+
 cost = 5
 
 is_interactible = true
@@ -13,9 +15,13 @@ enum Items {
 }
 
 item = irandom(Items.hp)
+data = ds_map_create()
+
+data[? 0] = {spr: sUIPlazmaClip}
+data[? 1] = {spr: sUIStipPack}
 
 function Interact() {
-	if oPlayer.coins >= cost {
+	if oPlayer.coins >= cost and item > -1 {
         oPlayer.coins -= cost
 		switch item {
 			case Items.clip:

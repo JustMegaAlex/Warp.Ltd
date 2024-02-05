@@ -7,7 +7,7 @@ hp_max = 5
 hp = 3
 plazma_clips = 1
 stimpacks = 1
-coins = 5
+coins = 20
 
 side = Sides.ours
 
