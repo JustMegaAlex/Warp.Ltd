@@ -66,6 +66,7 @@
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"oWarpCore","path":"objects/oWarpCore/oWarpCore.yy",},},
+    {"id":{"name":"sArmor_WIP","path":"sprites/sArmor_WIP/sArmor_WIP.yy",},},
     {"id":{"name":"sGoblin","path":"sprites/sGoblin/sGoblin.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oTopDownAimCamera","path":"objects/oTopDownAimCamera/oTopDownAimCamera.yy",},},

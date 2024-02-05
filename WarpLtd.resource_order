@@ -38,6 +38,7 @@
     {"name":"fntMain","order":11,"path":"fonts/fntMain/fntMain.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"oWarpCore","order":11,"path":"objects/oWarpCore/oWarpCore.yy",},
+    {"name":"sArmor_WIP","order":30,"path":"sprites/sArmor_WIP/sArmor_WIP.yy",},
     {"name":"sGoblin","order":4,"path":"sprites/sGoblin/sGoblin.yy",},
     {"name":"oWall","order":6,"path":"objects/oWall/oWall.yy",},
     {"name":"oTopDownAimCamera","order":4,"path":"objects/oTopDownAimCamera/oTopDownAimCamera.yy",},
