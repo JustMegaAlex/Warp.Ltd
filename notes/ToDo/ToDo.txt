@@ -1,6 +1,5 @@
 
 +++ Day 1 +++
-> resize everything
 > shop
     > item slot
     > item reload
