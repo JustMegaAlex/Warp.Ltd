@@ -7,14 +7,14 @@ image_yscale = max(0.5, menu_size)
 
 //// Menu items size
 menu_text_scale = 1
-menu_itemheight = font_get_size(fntMain)
-menu_item_distance_mult = 1.5
+menu_itemheight = 16
+menu_item_distance_mult = 1
 
 //// Menu positioning
 x = oWarpCore.x + 18
 menu_x = x + 4
 y = oWarpCore.y
-menu_y_base = oWarpCore.y + 10 
+menu_y_base = oWarpCore.y + 4
 			  - menu_itemheight * menu_size * menu_item_distance_mult * 0.5
 menu_y = menu_y_base
 

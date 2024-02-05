@@ -1,6 +1,6 @@
 
 ensure_singleton()
-
+randomize()
 debug_draw_ini()
 
 global.DEBUG = false

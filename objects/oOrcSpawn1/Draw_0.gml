@@ -1,2 +1,2 @@
 
-draw_text(x, y - 20, timer)
+//draw_text(x, y - 20, timer)
