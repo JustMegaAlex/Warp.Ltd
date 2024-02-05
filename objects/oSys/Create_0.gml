@@ -11,3 +11,5 @@ view_visible[0] = true
 camera_set_view_size(view_camera[0], vieww, viewh)
 
 alarm[0] = 10
+
+layer_set_visible("Tiles", true)
