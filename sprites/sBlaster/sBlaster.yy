@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sBlaster",
-  "bbox_bottom": 21,
+  "bbox_bottom": 17,
   "bbox_left": 0,
-  "bbox_right": 29,
-  "bbox_top": 0,
+  "bbox_right": 25,
+  "bbox_top": 5,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"340f22bb-cbfb-47e1-a857-4607dd9aa049",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6872338c-bae5-428a-b876-c7610fb9ee9e",},
   ],
   "gridX": 32,
   "gridY": 32,
   "height": 22,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fb028185-76fd-4250-a25a-5a18fce8a3e4","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dfb12104-fe1b-4b69-947d-6e7ac3f8f931","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 3,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"340f22bb-cbfb-47e1-a857-4607dd9aa049","path":"sprites/sBlaster/sBlaster.yy",},},},"Disabled":false,"id":"5c838bfb-9415-4ce6-abdc-d5e5883b9519","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6872338c-bae5-428a-b876-c7610fb9ee9e","path":"sprites/sBlaster/sBlaster.yy",},},},"Disabled":false,"id":"bd4f1391-2c4d-4000-a353-159eb0a995bc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 30,
+  "width": 26,
 }
