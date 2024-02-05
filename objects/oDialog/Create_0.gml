@@ -1,6 +1,6 @@
 
 text = ""
-active_time = 120
+active_time = 240
 active_timer = 0
 txt_x = -sprite_width * 0.5 + 3
 txt_y = 2

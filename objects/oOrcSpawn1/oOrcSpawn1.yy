@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Mobs",
-    "path": "folders/Objects/Mobs.yy",
+    "name": "Ships",
+    "path": "folders/Objects/Ships.yy",
   },
   "parentObjectId": {
     "name": "oEntity",

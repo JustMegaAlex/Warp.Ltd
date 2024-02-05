@@ -8,6 +8,11 @@ interaction_hint = string(cost)
 interaction_y_shift = -50
 
 draw_cost_y_shift = interaction_y_shift
+draw_cost_wave_sp = 4
+draw_item_wave_sp = 1
+draw_cost_wave_magn = 5
+draw_item_wave_magn = 3
+draw_text_x_shift = sprite_get_width(sCoin) * 0.7
 
 restore_time = 3 * 60
 restore_timer = 0
