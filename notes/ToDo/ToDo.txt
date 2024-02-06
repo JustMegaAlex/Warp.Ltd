@@ -1,7 +1,5 @@
 
 +++ Finishing +++
-> orcs
-    > ai
 > spawn manager
     > difficulties
     > test

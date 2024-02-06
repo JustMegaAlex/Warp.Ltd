@@ -8,10 +8,10 @@ sep = 12
 text_width = sprite_width - 6
 visible = false
 
-function Show(xx, yy, txt) {
+function Show(xx, yy, txt, time = active_time) {
 	x = xx
 	y = yy
-	active_timer = active_time
+	active_timer = time
 	text = txt
 	visible = true
 	var w = string_width(text)

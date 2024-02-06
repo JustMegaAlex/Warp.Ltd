@@ -1,5 +1,5 @@
 
-dist = 200
+dist = 300
 image_angle = oBlaster.image_angle
 image_blend = #FFDB19
 side = oBlaster.side

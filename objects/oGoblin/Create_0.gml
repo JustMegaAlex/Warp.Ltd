@@ -10,3 +10,4 @@ image_index = irandom(image_number - 1)
 function Interact() {
 	oDialog.Show(x, y + interaction_y_shift, dialog_text)
 }
+

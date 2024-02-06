@@ -73,7 +73,6 @@
     {"name":"inst_1029DDAD","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_4AEA3FD1","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_3D735C54","path":"rooms/rmStart/rmStart.yy",},
-    {"name":"inst_20D2588E","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_4ECDF651","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_3FAF76B6","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_15DB71D5","path":"rooms/rmStart/rmStart.yy",},
@@ -165,7 +164,7 @@
     {"name":"inst_41570F87","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_7BCCC837","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_7B74E682","path":"rooms/rmStart/rmStart.yy",},
-    {"name":"inst_543F1866","path":"rooms/rmStart/rmStart.yy",},
+    {"name":"inst_1A211329","path":"rooms/rmStart/rmStart.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -196,17 +195,13 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oGoblin","path":"objects/oGoblin/oGoblin.yy",},"propertyId":{"name":"dialog_text","path":"objects/oGoblin/oGoblin.yy",},"value":"Welcome to my shop! New items will appear in no time!",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"propertyId":{"name":"interaction_hint","path":"objects/oEntity/oEntity.yy",},"value":"Lenny",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":128.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20D2588E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGoblin","path":"objects/oGoblin/oGoblin.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oGoblin","path":"objects/oGoblin/oGoblin.yy",},"propertyId":{"name":"dialog_text","path":"objects/oGoblin/oGoblin.yy",},"value":"Your daily briefing: LMB to shoot ,   R to reload blaster,  F to use healing,  SPACE to  warp in when in warp console + warp out from a ship",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"propertyId":{"name":"interaction_hint","path":"objects/oEntity/oEntity.yy",},"value":"Looee",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A211329","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGoblinBrak","path":"objects/oGoblinBrak/oGoblinBrak.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":319.0,"y":139.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Floor","depth":12000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C0ACB63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWarpCore","path":"objects/oWarpCore/oWarpCore.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6550D9E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShopSlot","path":"objects/oShopSlot/oShopSlot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3472D2FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShopSlot","path":"objects/oShopSlot/oShopSlot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":927.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4ECDF651","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShopSlot","path":"objects/oShopSlot/oShopSlot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":96.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_543F1866","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oOrc","path":"objects/oOrc/oOrc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":288.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles","depth":12100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":110,"SerialiseWidth":63,"TileCompressedData":[
 -4,-2147483648,-2,11,-7,-2147483648,-5,1,-49,-2147483648,-2,11,-7,-2147483648,-5,11,-45,-2147483648,-3,11,5,-2147483648,11,11,-2147483648,-2147483648,-10,11,-45,-2147483648,-18,11,-45,-2147483648,-12,11,1,-2147483648,-5,11,-49,-2147483648,-2,11,-7,-2147483648,-5,11,-49,-2147483648,-2,11,-61,-2147483648,-2,11,-61,-2147483648,-2,11,-183,-2147483648,-7,
