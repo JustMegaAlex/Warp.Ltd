@@ -1,7 +1,10 @@
 
-if !warp_timer-- and !place_meeting(x, y, oPlayer) {
-	if !place_meeting(x, y, oOrc) {
-		oPlayer.OnWarpComplete(id)
+if !warp_timer-- {
+	if !reward_done and CheckWarpClear() and instance_exists(oPlayer) {
+		oPlayer.OnWarpComplete()
+		reward_done = true
 	}
-	instance_destroy()
+	if !place_meeting(x, y, oPlayer) {
+		instance_destroy()
+	}
 }

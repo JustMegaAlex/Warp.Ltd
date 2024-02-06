@@ -16,6 +16,7 @@ if item > -1 {
 	draw_sprite_ext(sShopItemShadow, 0,
 					x, y,
 					scale, 1, 0, c_white, 1)
+	// cost
 	draw_set_valign(fa_middle)
 	draw_set_halign(fa_left)
 	waving = lengthdir_y(draw_cost_wave_magn, draw_cost_wave_sp * global.frame)

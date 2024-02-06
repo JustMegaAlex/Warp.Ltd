@@ -26,6 +26,7 @@ is_dead = false
 
 is_warping_home = false
 in_warp = false
+warp_complete = false
 
 function SetInControl(val) {
 	in_control = val
@@ -62,10 +63,12 @@ function WarpHome() {
 	oUI.StartTransition()
 	is_warping_home = true
 	in_warp = false
+	warp_complete = false
 }
 
 function OnWarpComplete(ship) {
 	coins += 5
+	warp_complete = true
 }
 
 scr_camera_set_pos(0, x, y)

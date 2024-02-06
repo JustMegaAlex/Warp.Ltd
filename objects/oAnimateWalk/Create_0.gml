@@ -33,5 +33,13 @@ function draw_movement() {
 	draw_sprite_ext(
 		sprite_index, 0, x, y + animation.z,
 		1, 1, fake_image_angle + animation.wave_angle, c_white, 1)
+	
+	// draw_hit
+	var alpha = draw_hit_timer / draw_hit_time * 0.5
+	gpu_set_fog(true, c_red, 0, 0)
+	draw_sprite_ext(
+		sprite_index, 0, x, y + animation.z,
+		1, 1, fake_image_angle + animation.wave_angle, c_white, alpha)
+	gpu_set_fog(false, c_red, 0, 0)
 }
 

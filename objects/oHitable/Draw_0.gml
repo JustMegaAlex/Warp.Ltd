@@ -3,6 +3,7 @@ event_inherited()
 
 draw_self()
 
-if draw_hit_timer {
-	draw_hit()
-}
+// move to oAnimateWalk
+//if draw_hit_timer {
+//	draw_hit()
+//}

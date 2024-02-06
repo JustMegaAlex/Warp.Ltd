@@ -10,6 +10,7 @@ image_index = 5
 
 first_talked = false
 index = 0
+delay_after_first = 120
 
 lines = [
 	"You're late!",
@@ -43,6 +44,9 @@ lines_repeat = [
 ]
 
 function Interact() {
+	if first_talked and delay_after_first {
+		return	
+	}
 	var _lines = first_talked ? lines_repeat : lines
 	var txt = _lines[index]
 	oDialog.Show(x, y + interaction_y_shift, txt, 10 * 60)

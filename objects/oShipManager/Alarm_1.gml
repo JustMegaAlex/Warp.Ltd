@@ -1,6 +1,5 @@
 
-if !place_meeting(x, y, oOrcSpawn1)
-		and !place_meeting(x, y, oOrc) {
+if CheckWarpClear() {
 	warp_timer = 0
 }
 

@@ -6,6 +6,7 @@ global.ships_spawned++
 warp_area = noone
 warp_key = "ship" + string(global.ships_spawned)
 warp_timer = 3600
+reward_done = false
 
 entities = []
 tilemap = layer_tilemap_create("Tiles", x, y, tsAll, width, height)
@@ -25,6 +26,11 @@ function DrawTiles(tiles) {
 			tilemap_set(tilemap, tiledata, i, j)
 		}
 	}
+}
+
+function CheckWarpClear() {
+	return !place_meeting(x, y, oOrcSpawn1)
+		and !place_meeting(x, y, oOrc)
 }
 
 alarm[1] = 10
