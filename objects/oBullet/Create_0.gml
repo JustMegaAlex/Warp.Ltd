@@ -7,5 +7,3 @@ target = oHitable
 side = Sides.neutral
 xprev = x
 yprev = y
-
-rotation = 5

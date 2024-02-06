@@ -10,7 +10,7 @@ reloading = 0
 reload_time = 15
 side = Sides.neutral
 
-shoot_dist = 400
+shoot_dist = 700
 
 function shoot(dir) {
 	instance_create_layer(x + lengthdir_x(sprite_width, image_angle),
