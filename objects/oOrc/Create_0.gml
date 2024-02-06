@@ -23,6 +23,7 @@ function switch_to_walk() {
     dist_to_walk = randdist()
     dir = random(360)
     state = OrcState.walk
+	image_xscale = (dir < 90 or dir > 270) ? 1 : -1
 }
 
 function switch_to_shoot() {

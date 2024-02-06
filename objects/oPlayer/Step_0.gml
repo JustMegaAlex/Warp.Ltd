@@ -19,6 +19,7 @@ if in_control {
 	key_up = oInput.key_up
 	key_down = oInput.key_down
 	key_shoot = oInput.key_shoot
+	image_xscale = sign(mouse_x - x)
 }
 
 

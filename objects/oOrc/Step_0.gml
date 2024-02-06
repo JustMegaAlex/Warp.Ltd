@@ -16,6 +16,7 @@ switch (state) {
                 and !collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, false)
         if is_allowed_to_shoot and walked_before_shoot {
             switch_to_shoot()
+			image_xscale = sign(oPlayer.x - x)
         }
         break;
 
