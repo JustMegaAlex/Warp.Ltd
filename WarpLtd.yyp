@@ -23,6 +23,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Libraries/GM-EzConsole/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Libraries/GM-EzConsole/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Goblins","folderPath":"folders/Objects/Goblins.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mobs","folderPath":"folders/Objects/Mobs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Parents","folderPath":"folders/Objects/Parents.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ships","folderPath":"folders/Objects/Ships.yy",},

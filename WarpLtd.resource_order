@@ -10,6 +10,7 @@
     {"name":"Scripts","order":3,"path":"folders/Libraries/GM-EzConsole/Scripts.yy",},
     {"name":"Shaders","order":4,"path":"folders/Libraries/GM-EzConsole/Shaders.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Goblins","order":15,"path":"folders/Objects/Goblins.yy",},
     {"name":"Mobs","order":2,"path":"folders/Objects/Mobs.yy",},
     {"name":"Ships","order":1,"path":"folders/Objects/Ships.yy",},
     {"name":"Weapons","order":3,"path":"folders/Objects/Weapons.yy",},

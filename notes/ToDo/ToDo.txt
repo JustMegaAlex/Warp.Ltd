@@ -1,10 +1,10 @@
 
 +++ Finishing +++
+> orcs
+    > ai
 > spawn manager
     > difficulties
     > test
-> orcs
-    > ai
 > items
     > hacker tool - get online notifs from ship
     > scanner - reveal all warping enemies

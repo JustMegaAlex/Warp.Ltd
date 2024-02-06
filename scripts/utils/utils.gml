@@ -408,3 +408,37 @@ function ensure_singleton() {
 	}
 	return true
 }
+
+//// Shortcuts
+function Randomer(first, second=undefined) constructor {
+    self.from = first
+    self.to = second
+    if second == undefined {
+        self.from = 0
+        self.to = first
+    }
+    function __get() {
+        return random_range(self.from, self.to)
+    }
+}
+function IRandomer(first, second=undefined) constructor {
+    self.from = first
+    self.to = second
+    if second == undefined {
+        self.from = 0
+        self.to = first
+    }
+    function __get() {
+        return irandom_range(self.from, self.to)
+    }
+}
+
+function make_timer(time) {
+    return new Timer(time)
+}
+function randomer(first, second=undefined) {
+    return new Randomer(first, second).__get
+}
+function irandomer(first, second=undefined) {
+    return new IRandomer(first, second).__get
+}
