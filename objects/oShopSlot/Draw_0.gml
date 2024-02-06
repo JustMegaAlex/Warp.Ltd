@@ -11,7 +11,8 @@ if item > -1 {
 	draw_sprite_ext(spr, 0,
 					x + sprite_get_width(spr) * 0.5, y - 20 + waving,
 					scale, scale, 0, c_white, 1)
-	scale = 1 - waving/draw_item_wave_magn * 2
+	// shadow
+	scale = 0.8 + waving/draw_item_wave_magn * 0.2
 	draw_sprite_ext(sShopItemShadow, 0,
 					x, y,
 					scale, 1, 0, c_white, 1)
