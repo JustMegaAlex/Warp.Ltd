@@ -1,23 +1,38 @@
 
-+++ Finishing +++
++++ Developing +++
+> ship
+    > goods crates - wanna be lootet by orcs
+    > warp drive - wanna be destroyed by orcs
+> reward system
+    > reward based on result
+    > puhish for fails
 > spawn manager
     > difficulties
     > test
 > items
-    > hacker tool - get online notifs from ship
+    > watcher device - get online notifs from ship
     > scanner - reveal all warping enemies
-    > compact wormhole - you know what this is 
+    > compact wormhole - you know what this is
+    > turret - will do your job, but can hurt interiors, use with caution
+    > mines
+> console
+	> highlight chosen warps
+	> indicate threat level
+	> indicate warp time
+> warp in/out animation
+> shop upgrade
 > music
 > sfx
-> improve visuals
-> show to someone for test and ideas
-> polish
+> fix shadow
 
 > write a post
 > publish
 > slime
-> teleport animation
-> ship manager systems
-> comm
-> astar
-> astar ai
+> ship systems
+
++++ Ideas +++
+> Robby - hints spitting goblib
+> Coffee machine - boost yourself up
+> Darvin - startup founder, gives you quests 
+> Other mercenaries to contest with
+> Comm: manage warp tasks, message with team
