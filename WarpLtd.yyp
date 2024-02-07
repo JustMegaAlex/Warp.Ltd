@@ -31,10 +31,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Sounds/Music.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SFX","folderPath":"folders/Sounds/SFX.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SFX","folderPath":"folders/Sounds/SFX.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Sounds/Music.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"default_commands.json","CopyToMask":-1,"filePath":"datafiles/GM-EzConsole",},
@@ -49,6 +49,7 @@
   "resources": [
     {"id":{"name":"sUIStipPack","path":"sprites/sUIStipPack/sUIStipPack.yy",},},
     {"id":{"name":"ezConsole_logic","path":"scripts/ezConsole_logic/ezConsole_logic.yy",},},
+    {"id":{"name":"Fighting","path":"scripts/Fighting/Fighting.yy",},},
     {"id":{"name":"sPlazmaShot","path":"sprites/sPlazmaShot/sPlazmaShot.yy",},},
     {"id":{"name":"movement","path":"scripts/movement/movement.yy",},},
     {"id":{"name":"libOHitable","path":"objects/libOHitable/libOHitable.yy",},},

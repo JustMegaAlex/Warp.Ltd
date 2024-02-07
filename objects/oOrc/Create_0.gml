@@ -19,6 +19,14 @@ side = Sides.theirs
 uzi = instance_create_layer(x, y, layer, oUzi)
 uzi.carrier = id
 
+function hit_indirect(dmg=1) {
+	hp = max(0, hp - 1)
+	if hp == 0 {
+		instance_destroy()
+	}
+	draw_hit_timer = draw_hit_time
+}
+
 function switch_to_walk() {
     dist_to_walk = randdist()
     dir = random(360)
@@ -30,3 +38,5 @@ function switch_to_shoot() {
     state = OrcState.shoot
     shoot_timer.start()
 }
+
+hitbox = create_hitbox()

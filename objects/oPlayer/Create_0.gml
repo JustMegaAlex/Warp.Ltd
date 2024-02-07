@@ -47,6 +47,7 @@ function hit_indirect(dmg=1) {
 	if hp == 0 {
 		is_dead = true
 		in_control = false
+		sprite_index = sPlayerDead
 	}
 	draw_hit_timer = draw_hit_time
 }
@@ -79,7 +80,4 @@ if !instance_exists(oInput) {
 
 instance_create_layer(x, y, layer, oBlaster)
 
-with instance_create_layer(x, y, layer, oHitBox) {
-	target = oPlayer
-	sprite_index = sPlayerHitbox
-}
+hitbox = create_hitbox()
