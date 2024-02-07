@@ -4,6 +4,10 @@ if !instance_exists(carrier) {
 	exit
 }
 
+if !active {
+	exit
+}
+
 image_angle = point_direction(oPlayer.x, oPlayer.y, mouse_x, mouse_y)
 image_yscale = ((image_angle < 90) or (image_angle > 270)) ? 1 : -1
 

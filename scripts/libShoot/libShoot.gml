@@ -1,5 +1,6 @@
 
 enum Sides {
+	non_hitable,
 	ours,
 	theirs,
 	neutral,

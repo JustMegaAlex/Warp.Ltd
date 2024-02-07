@@ -1,7 +1,7 @@
 
 event_inherited()
 
-side = Sides.ours
+side = Sides.neutral
 hp = 5
 
 draw_hit_time = 30

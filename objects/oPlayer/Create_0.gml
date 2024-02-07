@@ -9,12 +9,11 @@ plazma_clips = 0
 stimpacks = 1
 coins = 0
 
-side = Sides.ours
+side = Sides.non_hitable
 
 sp = 4
 hsp = 0
 vsp = 0
-side = Sides.ours
 reload_time = 30
 reloading = 0
 warp_to_ship = noone
@@ -23,6 +22,7 @@ teleporting = 0
 teleport_trashold = 60
 
 is_dead = false
+dead_timer = make_timer(150)
 
 is_warping_home = false
 in_warp = false
@@ -42,12 +42,20 @@ function shoot(dir, obj=oSimpleBullet, spr=sSimpleBullet, sp=undefined) {
 	inst.side = side
 }
 
+function hit() {}
+
 function hit_indirect(dmg=1) {
+	if is_dead {
+		return	
+	}
 	hp = max(0, hp - 1)
 	if hp == 0 {
 		is_dead = true
 		in_control = false
 		sprite_index = sPlayerDead
+		oBlaster.SetInactive()
+		oBlaster.visible = false
+		dead_timer.start()
 	}
 	draw_hit_timer = draw_hit_time
 }
@@ -80,4 +88,4 @@ if !instance_exists(oInput) {
 
 instance_create_layer(x, y, layer, oBlaster)
 
-hitbox = create_hitbox()
+hitbox = create_hitbox(Sides.ours)

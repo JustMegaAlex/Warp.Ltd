@@ -5,7 +5,9 @@ move(sp, dir)
 image_angle = dir
 
 var hit = collision_line(x, y, xprev, yprev, target, false, true)
-if hit != noone and hit.side != side {
+if hit != noone 
+		and hit.side != Sides.non_hitable
+		and hit.side != side {
 	hit.hit()
 	instance_destroy()
 }

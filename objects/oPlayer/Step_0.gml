@@ -73,11 +73,11 @@ if oInput.key_heal and hp < hp_max and stimpacks {
 }
 
 if is_dead {
-	fake_image_angle = approach(fake_image_angle, 90, 1.2)
-	if fake_image_angle == 90 and !oUI.is_transition {
+	fake_image_angle = approach(fake_image_angle, 90, 0.8)
+	if !dead_timer.update() and !oUI.is_transition {
 		oUI.StartTransition()
 	}
 	if oUI.is_middle_transition {
-		game_restart()	
+		game_restart()
 	}
 }

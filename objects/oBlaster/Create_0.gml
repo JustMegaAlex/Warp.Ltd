@@ -9,6 +9,7 @@ radius = 10
 reloading = 0
 reload_time = 15
 side = Sides.neutral
+active = true
 
 function shoot(dir) {
 	instance_create_layer(x + lengthdir_x(sprite_width, image_angle),
@@ -22,4 +23,8 @@ function Full() {
 
 function Reload() {
 	ammo = ammo_max
+}
+
+function SetInactive() {
+	active = false
 }

@@ -11,10 +11,10 @@ dist_to_walk = randdist()
 dir = random(360)
 sp = 1
 shoot_timer = make_timer(30)
+side = Sides.non_hitable
 walked_before_shoot = false
 
 hp = 1
-side = Sides.theirs
 
 uzi = instance_create_layer(x, y, layer, oUzi)
 uzi.carrier = id
@@ -39,4 +39,4 @@ function switch_to_shoot() {
     shoot_timer.start()
 }
 
-hitbox = create_hitbox()
+hitbox = create_hitbox(Sides.theirs)
