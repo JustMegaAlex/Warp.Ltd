@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mscShipClear.wav",
   "type": 0,
-  "volume": 0.38,
+  "volume": 1.0,
 }

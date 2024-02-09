@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "Gun01",
+  "name": "sfxUzi",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.28,
+  "duration": 0.260227,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "Gun01.wav",
+  "soundFile": "sfxUzi.wav",
   "type": 0,
   "volume": 1.0,
 }
