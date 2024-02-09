@@ -45,6 +45,7 @@ if warp_to_ship and oUI.is_middle_transition {
 	in_control = true
 	ship = warp_to_ship
 	warp_to_ship = noone
+	oMusic.switch_music(mscShipFight)
 }
 
 if is_warping_home and oUI.is_middle_transition {
@@ -53,6 +54,7 @@ if is_warping_home and oUI.is_middle_transition {
 	y = oWarpCore.y
 	in_control = true
 	oWarpCore.Cooldown()
+	oMusic.switch_music(mscHomeBase)
 }
 
 if in_warp {

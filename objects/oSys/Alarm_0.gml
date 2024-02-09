@@ -20,5 +20,9 @@ console_add_command({
 	callback: ConsoleSpawnShip
 })
 
-__EzConsole__.console_width = vieww
-__EzConsole__.console_height = display_get_height() / ratio - 40
+if instance_exists(__EzConsole__) {
+	__EzConsole__.console_width = vieww
+	__EzConsole__.console_height = display_get_height() / ratio - 40
+}
+
+oMusic.switch_music(mscHomeBase)

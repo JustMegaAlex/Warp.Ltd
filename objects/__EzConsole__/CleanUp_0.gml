@@ -1,3 +1,7 @@
+
+if RELEASE
+	exit
+
 /// @description Free memory
 // Do destroy callback
 if (console_callback_on_destroy) console_callback_on_destroy();

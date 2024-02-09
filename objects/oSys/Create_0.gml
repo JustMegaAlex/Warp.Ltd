@@ -3,6 +3,8 @@ ensure_singleton()
 randomize()
 debug_draw_ini()
 
+draw_set_font(fntMain)
+
 global.DEBUG = !RELEASE
 
 vieww = 960

@@ -1,7 +1,7 @@
 
 event_inherited()
 
-//visible = false
+visible = !RELEASE
 
 side = Sides.neutral
 

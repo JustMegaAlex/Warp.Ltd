@@ -164,6 +164,7 @@
     {"name":"inst_7BCCC837","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_7B74E682","path":"rooms/rmStart/rmStart.yy",},
     {"name":"inst_1A211329","path":"rooms/rmStart/rmStart.yy",},
+    {"name":"inst_4CAE277C","path":"rooms/rmStart/rmStart.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -195,6 +196,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"propertyId":{"name":"interaction_hint","path":"objects/oEntity/oEntity.yy",},"value":"Lenny",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A211329","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGoblinBrak","path":"objects/oGoblinBrak/oGoblinBrak.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":300.0,"y":140.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CAE277C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oMusic","path":"objects/oMusic/oMusic.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Floor","depth":12000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C0ACB63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWarpCore","path":"objects/oWarpCore/oWarpCore.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":32.0,},

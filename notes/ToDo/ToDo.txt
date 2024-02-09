@@ -1,6 +1,7 @@
 
 +++ Release +++
 > sounds
+> draw tiles
 > first orc appear fast
 > throw release posts
 
