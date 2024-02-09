@@ -29,6 +29,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mobs","folderPath":"folders/Objects/Mobs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Parents","folderPath":"folders/Objects/Parents.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ships","folderPath":"folders/Objects/Ships.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SystemObjects","folderPath":"folders/Objects/SystemObjects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Objects/Weapons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
@@ -37,7 +38,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SFX","folderPath":"folders/Sounds/SFX.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SystemObjects","folderPath":"folders/Objects/SystemObjects.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"default_commands.json","CopyToMask":-1,"filePath":"datafiles/GM-EzConsole",},

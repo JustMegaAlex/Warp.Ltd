@@ -19,5 +19,3 @@ function Show(xx, yy, txt, time = active_time) {
 	image_yscale = lines * sep / sprite_get_height(sprite_index)
 	var test = true
 }
-
-draw_set_font(fntMain)

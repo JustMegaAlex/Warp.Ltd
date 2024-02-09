@@ -3,7 +3,7 @@ ensure_singleton()
 randomize()
 debug_draw_ini()
 
-draw_set_font(fntMain)
+draw_set_font(fnt_ezConsole_Smooth)
 
 global.DEBUG = !RELEASE
 
