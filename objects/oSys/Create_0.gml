@@ -2,8 +2,9 @@
 ensure_singleton()
 randomize()
 debug_draw_ini()
-
 draw_set_font(fnt_ezConsole_Smooth)
+layer_set_visible("Tiles", true)
+audio_master_gain(0.25)
 
 global.DEBUG = !RELEASE
 
@@ -18,4 +19,3 @@ escape_pressed = make_timer(120, false)
 
 alarm[0] = 10
 
-layer_set_visible("Tiles", true)
