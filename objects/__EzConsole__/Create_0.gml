@@ -1,4 +1,9 @@
 
+if RELEASE {
+	instance_destroy()
+	exit
+}
+
 console_make_additional_commands()
 
 /// @description Setup

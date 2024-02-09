@@ -1,4 +1,7 @@
 
+#macro RELEASE false
+#macro Release:RELEASE true
+
 assignments = []
 frame = 0
 interact_inst = noone

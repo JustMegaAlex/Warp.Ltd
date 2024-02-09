@@ -1,4 +1,9 @@
 
++++ Release +++
+> sounds
+> first orc appear fast
+> throw release posts
+
 +++ Developing +++
 > ship
     > goods crates - wanna be lootet by orcs

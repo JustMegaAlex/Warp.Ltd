@@ -6,7 +6,9 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "configs": {
-    "children": [],
+    "children": [
+      {"children":[],"name":"Release",},
+    ],
     "name": "Default",
   },
   "defaultScriptType": 1,
@@ -98,6 +100,7 @@
     {"id":{"name":"oGoblin","path":"objects/oGoblin/oGoblin.yy",},},
     {"id":{"name":"libShoot","path":"scripts/libShoot/libShoot.yy",},},
     {"id":{"name":"sUIWormHole","path":"sprites/sUIWormHole/sUIWormHole.yy",},},
+    {"id":{"name":"sTuteSign","path":"sprites/sTuteSign/sTuteSign.yy",},},
     {"id":{"name":"sAll","path":"sprites/sAll/sAll.yy",},},
     {"id":{"name":"oParticles","path":"objects/oParticles/oParticles.yy",},},
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},

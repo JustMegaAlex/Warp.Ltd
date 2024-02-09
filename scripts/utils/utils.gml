@@ -370,9 +370,9 @@ function mouse_collision(obj_or_inst) {
 	return collision_point(mouse_x, mouse_y, obj_or_inst, false, false)
 }
 
-function Timer(time) constructor {
+function Timer(time, init=true) constructor {
 	self.time = time
-	self.timer = 0
+	self.timer = init ? time : 0
 	
 	function update() {
 		self.timer -= timer > 0
@@ -433,8 +433,8 @@ function IRandomer(first, second=undefined) constructor {
     }
 }
 
-function make_timer(time) {
-    return new Timer(time)
+function make_timer(time, init=true) {
+    return new Timer(time, init)
 }
 function randomer(first, second=undefined) {
     return new Randomer(first, second).__get

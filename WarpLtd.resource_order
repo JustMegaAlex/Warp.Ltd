@@ -25,6 +25,7 @@
     {"name":"sUIHacker","order":21,"path":"sprites/sUIHacker/sUIHacker.yy",},
     {"name":"sOrcSpawn","order":19,"path":"sprites/sOrcSpawn/sOrcSpawn.yy",},
     {"name":"sUIWormHole","order":18,"path":"sprites/sUIWormHole/sUIWormHole.yy",},
+    {"name":"sTuteSign","order":38,"path":"sprites/sTuteSign/sTuteSign.yy",},
     {"name":"sCoin","order":17,"path":"sprites/sCoin/sCoin.yy",},
     {"name":"sPlayerDead","order":28,"path":"sprites/sPlayerDead/sPlayerDead.yy",},
     {"name":"sUIBlaster","order":16,"path":"sprites/sUIBlaster/sUIBlaster.yy",},
