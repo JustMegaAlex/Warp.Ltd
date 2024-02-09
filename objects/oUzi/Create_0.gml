@@ -20,4 +20,5 @@ function TriggerShots() {
 
 function shoot(dir) {
 	Shoot(dir, oBullet)
+	audio_play_sound(sfxUzi, 3, false)
 }

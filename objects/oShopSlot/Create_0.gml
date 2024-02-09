@@ -40,5 +40,6 @@ function Interact() {
 		}
         item = -1
         restore_timer = restore_time
+		audio_play_sound(sfxGetItem, 3, false)
 	}
 }

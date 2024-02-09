@@ -27,6 +27,8 @@ dead_timer = make_timer(150)
 is_warping_home = false
 in_warp = false
 warp_complete = false
+show_warp_complete_timer = make_timer(30)
+show_warp_complete = false
 
 function SetInControl(val) {
 	in_control = val
@@ -45,6 +47,7 @@ function shoot(dir, obj=oSimpleBullet, spr=sSimpleBullet, sp=undefined) {
 function hit() {}
 
 function hit_indirect(dmg=1) {
+	audio_play_sound(sfxDamage, 3, false)
 	if is_dead {
 		return	
 	}
@@ -65,6 +68,8 @@ function Warp(ship) {
 	oUI.StartTransition()
 	warp_to_ship = ship
 	in_warp = true
+	audio_play_sound(sfxTeleport, 3, false)
+	show_warp_complete = false
 }
 
 function WarpHome() {
@@ -73,11 +78,14 @@ function WarpHome() {
 	is_warping_home = true
 	in_warp = false
 	warp_complete = false
+	audio_play_sound(sfxTeleport, 3, false)
+	show_warp_complete = false
 }
 
 function OnWarpComplete(ship) {
 	coins += 5
 	warp_complete = true
+	show_warp_complete_timer.start()
 }
 
 scr_camera_set_pos(0, x, y)

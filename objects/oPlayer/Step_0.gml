@@ -66,6 +66,15 @@ if in_warp {
 	}
 }
 
+// play coin sound and trigger to show "warp complete" hint
+if in_warp
+		and warp_complete
+		and !show_warp_complete
+		and !show_warp_complete_timer.update() {
+	audio_play_sound(sfxCoin, 3, false)
+	show_warp_complete = true
+}
+
 //// Use items
 if oInput.key_reload and !oBlaster.Full() and plazma_clips {
 	plazma_clips--

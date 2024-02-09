@@ -15,6 +15,7 @@ function shoot(dir) {
 	instance_create_layer(x + lengthdir_x(sprite_width, image_angle),
 						  y + lengthdir_y(sprite_width, image_angle),
 						  "Foreground", oBlasterShot)
+	audio_play_sound(choose(sfxGun, sfxGun1, sfxGun2), 3, false)
 }
 
 function Full() {
